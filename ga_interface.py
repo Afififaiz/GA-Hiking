@@ -5,7 +5,7 @@ import random
 import os
 
 # Define the path to the GA model
-model_path = os.path.expanduser('~/Documents/ga_knapsack_model.pkl')
+model_path = os.path.expanduser(r"ga_knapsack_model.pkl")
 
 # Load the GA Model
 with open(model_path, 'rb') as f:
